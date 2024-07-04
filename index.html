@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Drive Video Stream</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        video {
+            width: 80%;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <video controls id="videoPlayer">
+        Your browser does not support the video tag.
+    </video>
+    <script>
+        // Replace VIDEO_ID with the actual video ID from Google Drive
+        const videoId = 'VIDEO_ID';
+        const videoPlayer = document.getElementById('videoPlayer');
+        const videoSrc = `https://drive.google.com/uc?export=download&id=${1VtrdxiFKsIPtoU0qL6jx9ZXYOHwpvbre}`;
+        videoPlayer.src = videoSrc;
+    </script>
+</body>
+</html>
